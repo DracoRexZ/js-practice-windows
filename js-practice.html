@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Javascript Practice</title>
+    <link rel="stylesheet" href="js-practice.css">
+</head>
+<body>
+    <div id="mainBody">
+        <div class="contents">
+            <p class="content 1" id="mainText">Hello World!</p>
+            <div class="content 2">
+                <button onClick="changeColor('red');">Red</button>
+                <button onClick="changeColor('blue');">Blue</button>
+                <button onClick="changeColor('green');">Green</button>
+                <button onClick="changeColor('black');">Reset</button>
+            </div>
+            <p class="content 3" id="d20">Roll a D20</p>
+            <button class="content 4" id="buttonD20" onClick="textD20();">Roll</button><br><br><span id="post-roll"></span><br><br>
+            <button class="content 5" id="color-button" onClick="setColor();">Generate Random Color</button><br><br>
+            <span class="content 6" id="pre-color"></span><br>
+            <div class="content 7" id="color-box"></div>
+        </div>
+    </div>
+    <script src="practice.js"></script>
+</body>
+</html>
